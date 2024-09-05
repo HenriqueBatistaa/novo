@@ -1,0 +1,255 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ 
+ ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+ }
+ 
+ 
+ a {
+    color: white;
+    text-decoration: none;
+ }
+ 
+ 
+ header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #5BBE42;
+ }
+ 
+ 
+ .center {
+    text-align: center;
+ }
+ 
+ 
+ h1 {
+    color: #5BBE42;
+ }
+ 
+ 
+ footer img {
+    width: 40px;
+    height: 40px;
+ }
+ 
+ 
+ footer {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ 
+ footer a {
+    margin: 20px;
+    text-align: center;
+ }
+ 
+ 
+ footer p {
+    margin-top: 2px;
+ }
+ 
+ 
+ .container {
+    padding: 0px 50px;
+ }
+ 
+ 
+ nav a {
+    font-size: 20px;
+ }
+ 
+ 
+ nav a:hover {
+    color: #5BBE42;
+ }
+ 
+ 
+ .contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+ }
+ 
+ 
+ .contact-form input[type=text] {
+    height: 100px;
+ }
+ .estudante-imagem{
+    height: 100px;
+ }
+ 
+ 
+ button {
+ 
+ 
+        outline: none;
+        cursor: pointer;
+        border: none;
+        padding: 0.9rem 2rem;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        position: relative;
+        display: inline-block;
+        letter-spacing: 0.05rem;
+        font-weight: 700;
+        font-size: 17px;
+        border-radius: 500px;
+        overflow: hidden;
+        background: #66ff66;
+        color: rgb(0, 0, 0);
+       }
+      
+       button span {
+        position: relative;
+        z-index: 10;
+        transition: color 0.4s;
+       }
+      
+       button:hover span {
+        color: rgb(0, 0, 0);
+       }
+      
+       button::before,
+ 
+ 
+       button::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+       }
+      
+       button::before {
+        
+        content: "Comprar!!";
+        background: #0066ff;
+        width: 120%;
+        left: -10%;
+        transform: (30deg);
+        transition: transform 0.3s cubic-bezier(1.0, 1, 0.8, 1);
+        color: rgb(0, 0, 0);
+       }
+      
+       button:hover::before {
+        transform: translate3d(100%, 0, 0);
+       }
+      
+ 
+ 
+ 
+ 
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body {
+    font-family: 'Poppins', sans-serif;
+ }
+ .cabecalho {
+    background-color: #424E61;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+ }
+ 
+ 
+ .cabecalho-imagem{
+    width: 10%;
+ }
+ 
+ 
+ .cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+ }
+ 
+ 
+ .escola-imagem{
+    width: 25%;
+ }
+ 
+ 
+ .escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+ }
+ 
+ 
+ .escola-div-conteudo{
+    width: 35%;
+ }
+ 
+ 
+ 
+ 
+ .escola-titulo{
+    padding: 24px 0;
+ }
+ 
+ 
+ .estudante{
+    padding: 24px 0;
+ }
+ .estudante-imagem{
+    width: 120px;
+ }
+ 
+ 
+ .estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+ }
+ 
+ 
+ .estudante-div{
+    text-align: center;
+    padding: 16px 0;
+ }
+ 
+ 
+ .estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+ }
+ 
+ 
+ .estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+ }
+ 
+ 
+ .rodape{
+    background-color: black;
+    text-align: center;
+ }
+ 
+ 
+ .rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+  
+ }
+ 
